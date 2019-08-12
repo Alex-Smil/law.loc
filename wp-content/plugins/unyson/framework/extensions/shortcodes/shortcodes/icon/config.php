@@ -3,7 +3,7 @@
 $cfg = array();
 
 $cfg['page_builder'] = array(
-	'title'         => __('Icon', 'fw'),
-	'description'   => __('Add an Icon', 'fw'),
-	'tab'           => __('Content Elements', 'fw'),
+	'title'         => __('Icon', 'law'),
+	'description'   => __('Add an Icon', 'law'),
+	'tab'           => __('Content Elements', 'law'),
 );

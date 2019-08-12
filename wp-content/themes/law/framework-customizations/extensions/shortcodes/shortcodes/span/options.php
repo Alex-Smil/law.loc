@@ -29,7 +29,7 @@ $options = array(
      * Поле принимает строку в виде:
      * data-from="0" data-to="27539" data-speed="5000" data-refresh-interval="50"
      */
-    'span_data_attr' => array(
+    'span_data_attrs' => array(
         'type'  => 'text',
         'label' => __('Attributes', 'law'),
         'desc'  => __( 'Attributes Desc', 'law' )
