@@ -3,7 +3,18 @@
 }
 
 $options = array(
-	'span_icon'  => array( // Поле для добавления иконки
+    'span_wrapper'  => array( // Поле для добавления иконки
+        'type'  => 'checkbox', // нужно ли оборачивать в <div>
+        'label' => __( 'Wrap in div?', 'law' ),
+        'text' => __('', 'law') // Текст который будет выведен рядом с checkbox
+    ),
+
+    'span_wrapper_class'  => array( // Поле для добавления иконки
+        'type'  => 'text',
+        'label' => __( 'Wrapper Class', 'law' )
+    ),
+
+    'span_icon'  => array( // Поле для добавления иконки
 		'type'  => 'icon',
 		'label' => __( 'Span Icon', 'law' )
 	),
