@@ -107,3 +107,8 @@
     box-shadow: none;
     border-color: #F95959;
 }
+
+.fw_form_fw_form .wrap-forms label {
+    /*display: none;*/
+    font-weight: 400;
+}

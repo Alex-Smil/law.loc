@@ -7,9 +7,15 @@
 	str = str.slice(0, -1) + '<span>' + str.substr(-1) + '</span>';
     $('#fh5co-logo a').html(str);
 
-    //My js for counter columns
-    //$('#fh5co-counter > .fw-container > .fw-row > div').addClass('animate-box');
-    // end
+    /* Настройка асинхронной работы формы */
+    $('.fw_form_fw_form').on('submit', function() {
+    	var $this = $(this), // сама форма
+			btn = $this.find('button'),
+			data = $this.serialize(),
+			formAlert = $('.form-alert'),
+			loader = ''
+	});
+    /* *** */
 
 	var isMobile = {
 		Android: function() {
