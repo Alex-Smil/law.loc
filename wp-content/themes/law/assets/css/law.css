@@ -112,3 +112,8 @@
     /*display: none;*/
     font-weight: 400;
 }
+
+/**/
+.form-alert {
+    display: none;
+}

@@ -204,6 +204,9 @@ function law_scripts() {
         'law-main',
         get_template_directory_uri() . '/assets/js/main.js', array(), '', true
     );
+    wp_localize_script( 'law-main', 'lawData', array(
+    	'themePath' => get_template_directory_uri()
+    ) );
 }
 add_action( 'wp_enqueue_scripts', 'law_scripts' );
 

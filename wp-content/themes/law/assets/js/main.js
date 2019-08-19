@@ -8,12 +8,45 @@
     $('#fh5co-logo a').html(str);
 
     /* Настройка асинхронной работы формы */
+    // $('.fw_form_fw_form .form-alert').after('TEST STRING');
     $('.fw_form_fw_form').on('submit', function() {
     	var $this = $(this), // сама форма
-			btn = $this.find('button'),
-			data = $this.serialize(),
-			formAlert = $('.form-alert'),
-			loader = ''
+			btn = $this.find('button'), // сама кнопка для защиты от повторного нажатия во время отправки
+			data = $this.serialize(), // данные для отправки
+			formAlert = $('.form-alert'), // Элемент для вывода сообщения о результате отправки письма
+			// loader = "<img class='loader' src='${lawData.themePath}/assets/images/loader.gif'>'" // крутящееся колесо во время загрузки
+            loader = '<img class="loader" src="' + lawData.themePath + '/assets/images/loader.gif">';
+
+        // console.log('loader');
+        // console.log(loader);
+
+        // Далее формируем AJAX запрос
+        $.ajax({
+            type: 'POST',
+            data: data,
+            beforeSend: function () {
+				btn.attr('disabled', true);// блокируем кнопку
+                /*
+                * скроем не нужные классы перед повторной отправкой письма,
+                * а также очистим саму форму alert
+                * */
+				formAlert.removeClass('alert-success alert-danger').empty();
+				btn.after(loader);
+				console.log(loader)
+            },
+            success: function (responce) {
+                // при помощи fadeIn за 300мс выводим наш span и по окончанию вызываем callback function
+                formAlert.fadeIn( 300, function () {
+                  console.log(responce);
+                } );
+            },
+            error: function () {
+                alert('Error');
+            }
+        });
+
+		// alert('It works');
+		return false;
 	});
     /* *** */
 
