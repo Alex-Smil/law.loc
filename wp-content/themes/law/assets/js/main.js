@@ -34,11 +34,26 @@
 				btn.after(loader);
 				console.log(loader)
             },
-            success: function (responce) {
+            success: function ( responce ) {
                 // при помощи fadeIn за 300мс выводим наш span и по окончанию вызываем callback function
                 formAlert.fadeIn( 300, function () {
-                  console.log(responce);
+                	console.log( responce );// Test
+					if( responce.success ) {
+						formAlert.addClass( 'alert-success' ).text( responce.data.flash_messages.success.fw_ext_contact_form_process );
+						$this[0].reset();// очистим поля формы
+					} else {
+						formAlert.addClass('alert-danger');
+						var errors = '';
+						for(var key in responce.data.errors) {
+							errors += responce.data.errors[key] + '<br>';
+						}
+						formAlert.html(errors);
+					}
+					formAlert.addClass();
                 } );
+
+                $('.loader').remove();
+                btn.attr('disabled', false);
             },
             error: function () {
                 alert('Error');
