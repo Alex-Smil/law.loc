@@ -19,6 +19,7 @@
 
         // console.log('loader');
         // console.log(loader);
+        // debug($this);
 
         // Далее формируем AJAX запрос
         $.ajax({
@@ -32,7 +33,7 @@
                 * */
 				formAlert.removeClass('alert-success alert-danger').empty();
 				btn.after(loader);
-				console.log(loader)
+				console.log(loader); // test
             },
             success: function ( responce ) {
                 // при помощи fadeIn за 300мс выводим наш span и по окончанию вызываем callback function
