@@ -126,7 +126,7 @@ a.btn.btn-primary:visited {
     background: #F95959;
 }
 
-/* урок 17  */
+/* урок 17 */
 .fw-team .fw-team-inner .fw-team-name > span {
     font-size: 16px;
 }
@@ -140,4 +140,23 @@ a.btn.btn-primary:visited {
     color: #F95959;
 }
 
+/* урок 18 */
+#menu-footer-menu {
+    margin: 0;
+    padding: 0;
+}
 
+#menu-footer-menu li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu-footer-menu li a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+#menu-footer-menu li a:hover {
+    text-decoration: underline;
+}
