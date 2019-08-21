@@ -29,7 +29,8 @@
 
 /*урок 11*/
 #fh5co-practice .fh5co-heading,
-#fh5co-blog .fh5co-heading {
+#fh5co-blog .fh5co-heading, /* урок 16 */
+#fh5co-about .fh5co-heading { /* урок 17 */
     padding: 0 16%;
 }
 
@@ -124,3 +125,19 @@ a.btn.btn-primary:visited {
     color: #fff;
     background: #F95959;
 }
+
+/* урок 17  */
+.fw-team .fw-team-inner .fw-team-name > span {
+    font-size: 16px;
+}
+
+#fh5co-about .fw-icon {
+    padding: 0 10px;
+}
+
+#fh5co-about .fw-icon i {
+    font-size: 20px;
+    color: #F95959;
+}
+
+
