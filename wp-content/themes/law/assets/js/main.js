@@ -33,24 +33,29 @@
                 * */
 				formAlert.removeClass('alert-success alert-danger').empty();
 				btn.after(loader);
-				console.log(loader); // test
+				// console.log(loader); // test
             },
             success: function ( responce ) {
                 // при помощи fadeIn за 300мс выводим наш span и по окончанию вызываем callback function
                 formAlert.fadeIn( 300, function () {
                 	console.log( responce );// Test
-					if( responce.success ) {
+					if( responce.success && !responce.data.flash_messages.error.fw_ext_contact_form_process) {
 						formAlert.addClass( 'alert-success' ).text( responce.data.flash_messages.success.fw_ext_contact_form_process );
 						$this[0].reset();// очистим поля формы
 					} else {
 						formAlert.addClass('alert-danger');
 						var errors = '';
+
 						for(var key in responce.data.errors) {
 							errors += responce.data.errors[key] + '<br>';
 						}
+
+                        if ( responce.data.flash_messages.error.fw_ext_contact_form_process ) {
+                            errors += responce.data.flash_messages.error.fw_ext_contact_form_process
+                        }
+
 						formAlert.html(errors);
 					}
-					formAlert.addClass();
                 } );
 
                 $('.loader').remove();

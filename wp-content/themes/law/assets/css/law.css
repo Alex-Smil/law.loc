@@ -1,5 +1,6 @@
 #home-slider > .fw-container-fluid,
-#fh5co-content > .fw-container-fluid {
+#fh5co-content > .fw-container-fluid,
+#law-map > .fw-container-fluid{
     padding: 0;
 }
 
@@ -159,4 +160,9 @@ a.btn.btn-primary:visited {
 
 #menu-footer-menu li a:hover {
     text-decoration: underline;
+}
+
+/* урок 18 */
+.p-0 {
+    padding: 0;
 }
