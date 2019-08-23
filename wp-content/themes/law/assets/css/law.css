@@ -166,3 +166,29 @@ a.btn.btn-primary:visited {
 .p-0 {
     padding: 0;
 }
+
+/* урок 19 */
+/* my rules for columns */
+#fh5co-blog .fh5co-blog {
+    position: relative;
+}
+
+#fh5co-blog .blog-text {
+    height: 315px;
+    /*overflow: hidden;  хотя текст и так ограничен тегом more в page builder */
+}
+
+#fh5co-blog .blog-text .btn {
+    position: absolute;
+    bottom: 25px;
+}
+
+.fh5co-blog > a img {
+    /*max-height: 202px;  Разрушает адаптив */
+}
+/* *** */
+
+.low-post-image {
+    max-width: 300px;
+    margin-right: 20px;
+}
