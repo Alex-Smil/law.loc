@@ -32,7 +32,7 @@ if ( $doaction && isset( $_REQUEST['linkcheck'] ) ) {
 
 		$redirect_to = add_query_arg( 'deleted', count( $bulklinks ), $redirect_to );
 	} else {
-		/** This action is documented in wp-admin/edit-comments.php */
+		/** This action is documented in wp-admin/edit-_comments.php */
 		$redirect_to = apply_filters( 'handle_bulk_actions-' . get_current_screen()->id, $redirect_to, $doaction, $bulklinks );
 	}
 	wp_redirect( $redirect_to );

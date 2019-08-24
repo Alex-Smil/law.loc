@@ -4,11 +4,38 @@
     <list default="true" id="0da6123f-8f01-41ef-b161-e4eba61d4972" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/law(Wordpress manual).docx" beforeDir="false" afterPath="$PROJECT_DIR$/law(Wordpress manual).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/edit-comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/edit-comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/edit-tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/edit-tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-comments-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-comments-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-list-table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/upgrade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/includes/upgrade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/link-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/link-manager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/moderation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/moderation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/options-discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/options-discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/plugins.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/plugins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-admin/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/helpers/class-fw-wp-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/helpers/class-fw-wp-list-table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/law/assets/images/moon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/assets/images/moon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/law/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/law/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/law/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/law/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/law/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/law/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/admin-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/admin-bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/blocks/latest-comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/blocks/latest-comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/comment-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/comment-template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/theme-compat/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/theme-compat/comments.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/law/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5786">
-              <caret line="650" selection-start-line="650" selection-end-line="650" />
+            <state relative-caret-position="289">
+              <caret line="652" column="11" lean-forward="true" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
               <folding>
                 <element signature="e#122#129#0" expanded="true" />
                 <element signature="n#aside#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -61,37 +88,37 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/law/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="25" selection-end-line="38" />
+              <caret line="4" column="25" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/law/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/law/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="66">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/views/view.php">
+      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/law/comments.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="46" selection-end-column="19" />
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
               <folding>
-                <element signature="e#383#1663#0#PHP" />
+                <element signature="e#6#225#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/law/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="242" selection-start-line="242" selection-end-line="242" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -99,8 +126,8 @@
       <file leaf-file-name="law.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="186" column="46" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="46" />
+            <state relative-caret-position="6067">
+              <caret line="461" column="1" selection-start-line="461" selection-start-column="1" selection-end-line="461" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -122,6 +149,7 @@
       <find>slider</find>
       <find>sidebar</find>
       <find>padding</find>
+      <find>the_comments_navigation</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php  ?&gt;</replace>
@@ -165,16 +193,19 @@
         <option value="$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/views/view.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/options.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/law/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/assets/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/template/contact.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/law/template/index.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/category.php" />
+        <option value="$PROJECT_DIR$/wp-comments-post.php" />
+        <option value="$PROJECT_DIR$/wp-includes/theme-compat/comments.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/law/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/law/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/law/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/law/template/index.html" />
       </list>
     </option>
   </component>
@@ -189,9 +220,9 @@
       <path value="$PROJECT_DIR$/wp-content/themes/twentynineteen/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2264" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="227" />
+    <option name="y" value="13" />
     <option name="width" value="1117" />
     <option name="height" value="664" />
   </component>
@@ -241,86 +272,6 @@
               <item name="law" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="recent-posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-customizations" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
-              <item name="recent-posts" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="law.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="law.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="law" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,26 +335,28 @@
       <workItem from="1566308976450" duration="23428000" />
       <workItem from="1566408792853" duration="18290000" />
       <workItem from="1566534245941" duration="3572000" />
+      <workItem from="1566570569500" duration="10381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170604000" />
+    <option name="totallyTimeSpent" value="180985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="227" y="13" width="1117" height="664" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2299427" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19800182" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.45335084" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -412,25 +365,24 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32786885" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34813753" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32936507" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -451,83 +403,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="85" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5390">
-          <caret line="245" column="3" lean-forward="true" selection-start-line="245" selection-start-column="3" selection-end-line="245" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/inc/tgm/example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/inc/tgm/tgm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="4" selection-start-line="33" selection-end-line="33" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/Law_Header_Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="149" column="72" selection-start-line="149" selection-start-column="72" selection-end-line="149" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/class-walker-nav-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/static/images/preview.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/views/flex-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/options/custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/media/extensions/slider/extensions/flex-slider/static/images/thumb.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -678,38 +553,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="114" column="70" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/config.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/options.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/law/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -727,20 +576,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/views/view.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/framework-customizations/extensions/shortcodes/shortcodes/recent-posts/views/view.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/category.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/_comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#115#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/theme-compat/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentynineteen/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/wp_03-21/law/functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="242" selection-start-line="242" selection-end-line="242" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/wp_03-21/law/assets/css/law.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/comments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="46" selection-end-column="19" />
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding>
-            <element signature="e#383#1663#0#PHP" />
+            <element signature="e#6#225#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6067">
+          <caret line="461" column="1" selection-start-line="461" selection-start-column="1" selection-end-line="461" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/law/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5786">
-          <caret line="650" selection-start-line="650" selection-end-line="650" />
+        <state relative-caret-position="289">
+          <caret line="652" column="11" lean-forward="true" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
           <folding>
             <element signature="e#122#129#0" expanded="true" />
             <element signature="n#aside#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -770,34 +718,6 @@
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="e#23803#23809#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/assets/css/law.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="186" column="46" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/law/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>

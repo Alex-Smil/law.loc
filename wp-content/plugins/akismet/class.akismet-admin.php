@@ -127,7 +127,7 @@ class Akismet_Admin {
 
 		if ( in_array( $hook_suffix, apply_filters( 'akismet_admin_page_hook_suffixes', array(
 			'index.php', # dashboard
-			'edit-comments.php',
+			'edit-_comments.php',
 			'comment.php',
 			'post.php',
 			'settings_page_akismet-key-config',
@@ -346,7 +346,7 @@ class Akismet_Admin {
 				'<a href="%1$s">Akismet</a> has protected your site from <a href="%2$s">%3$s spam comment</a>.',
 				'<a href="%1$s">Akismet</a> has protected your site from <a href="%2$s">%3$s spam comments</a>.',
 				$count
-			, 'akismet'), 'https://akismet.com/wordpress/', esc_url( add_query_arg( array( 'page' => 'akismet-admin' ), admin_url( isset( $submenu['edit-comments.php'] ) ? 'edit-comments.php' : 'edit.php' ) ) ), number_format_i18n($count) ).'</p>';
+			, 'akismet'), 'https://akismet.com/wordpress/', esc_url( add_query_arg( array( 'page' => 'akismet-admin' ), admin_url( isset( $submenu['edit-_comments.php'] ) ? 'edit-_comments.php' : 'edit.php' ) ) ), number_format_i18n($count) ).'</p>';
 	}
 
 	// WP 2.5+
@@ -361,7 +361,7 @@ class Akismet_Admin {
 			$intro = sprintf( __('<a href="%s">Akismet</a> blocks spam from getting to your blog. ', 'akismet'), 'https://akismet.com/wordpress/' );
 		}
 
-		$link = add_query_arg( array( 'comment_status' => 'spam' ), admin_url( 'edit-comments.php' ) );
+		$link = add_query_arg( array( 'comment_status' => 'spam' ), admin_url( 'edit-_comments.php' ) );
 
 		if ( $queue_count = self::get_spam_count() ) {
 			$queue_text = sprintf( _n(
@@ -423,7 +423,7 @@ class Akismet_Admin {
 			));
 		}
 		else {
-			$redirect_to = isset( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : admin_url( 'edit-comments.php' );
+			$redirect_to = isset( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : admin_url( 'edit-_comments.php' );
 			wp_safe_redirect( $redirect_to );
 			exit;
 		}
@@ -1028,7 +1028,7 @@ class Akismet_Admin {
 			return;
 		}
 
-		if ( in_array( $hook_suffix, array( 'edit-comments.php' ) ) && (int) get_option( 'akismet_alert_code' ) > 0 ) {
+		if ( in_array( $hook_suffix, array( 'edit-_comments.php' ) ) && (int) get_option( 'akismet_alert_code' ) > 0 ) {
 			Akismet::verify_key( Akismet::get_api_key() ); //verify that the key is still in alert state
 			
 			if ( get_option( 'akismet_alert_code' ) > 0 )
@@ -1037,7 +1037,7 @@ class Akismet_Admin {
 		elseif ( $hook_suffix == 'plugins.php' && !Akismet::get_api_key() ) {
 			self::display_api_key_warning();
 		}
-		elseif ( $hook_suffix == 'edit-comments.php' && wp_next_scheduled( 'akismet_schedule_cron_recheck' ) ) {
+		elseif ( $hook_suffix == 'edit-_comments.php' && wp_next_scheduled( 'akismet_schedule_cron_recheck' ) ) {
 			self::display_spam_check_warning();
 		}
 		else if ( isset( $_GET['akismet_recheck_complete'] ) ) {

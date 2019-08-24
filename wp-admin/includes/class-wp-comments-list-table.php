@@ -264,7 +264,7 @@ class WP_Comments_List_Table extends WP_List_Table {
 			unset( $stati['trash'] );
 		}
 
-		$link = admin_url( 'edit-comments.php' );
+		$link = admin_url( 'edit-_comments.php' );
 		if ( ! empty( $comment_type ) && 'all' != $comment_type ) {
 			$link = add_query_arg( 'comment_type', $comment_type, $link );
 		}
@@ -771,7 +771,7 @@ class WP_Comments_List_Table extends WP_List_Table {
 						's'    => $author_ip,
 						'mode' => 'detail',
 					),
-					admin_url( 'edit-comments.php' )
+					admin_url( 'edit-_comments.php' )
 				);
 				if ( 'spam' === $comment_status ) {
 					$author_ip_url = add_query_arg( 'comment_status', 'spam', $author_ip_url );

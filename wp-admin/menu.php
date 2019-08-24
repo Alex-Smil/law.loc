@@ -85,7 +85,7 @@ if ( current_user_can( 'edit_posts' ) ) {
 		/* translators: %s: number of comments in moderation */
 		sprintf( __( 'Comments %s' ), '<span class="awaiting-mod count-' . absint( $awaiting_mod ) . '"><span class="pending-count" aria-hidden="true">' . $awaiting_mod_i18n . '</span><span class="comments-in-moderation-text screen-reader-text">' . $awaiting_mod_text . '</span></span>' ),
 		'edit_posts',
-		'edit-comments.php',
+		'edit-_comments.php',
 		'',
 		'menu-top menu-icon-comments',
 		'menu-comments',
@@ -94,7 +94,7 @@ if ( current_user_can( 'edit_posts' ) ) {
 	unset( $awaiting_mod );
 }
 
-$submenu['edit-comments.php'][0] = array( __( 'All Comments' ), 'edit_posts', 'edit-comments.php' );
+$submenu['edit-_comments.php'][0] = array( __( 'All Comments' ), 'edit_posts', 'edit-_comments.php' );
 
 $_wp_last_object_menu = 25; // The index of the last top-level menu in the object menu group
 

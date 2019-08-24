@@ -1316,11 +1316,11 @@ function wp_comment_form_unfiltered_html_nonce() {
  * @global bool       $overridden_cpage
  * @global bool       $withcomments
  *
- * @param string $file              Optional. The file to load. Default '/comments.php'.
+ * @param string $file              Optional. The file to load. Default '/_comments.php'.
  * @param bool   $separate_comments Optional. Whether to separate the comments by comment type.
  *                                  Default false.
  */
-function comments_template( $file = '/comments.php', $separate_comments = false ) {
+function comments_template( $file = '/_comments.php', $separate_comments = false ) {
 	global $wp_query, $withcomments, $post, $wpdb, $id, $comment, $user_login, $user_ID, $user_identity, $overridden_cpage;
 
 	if ( ! ( is_single() || is_page() || $withcomments ) || empty( $post ) ) {
@@ -1328,7 +1328,7 @@ function comments_template( $file = '/comments.php', $separate_comments = false 
 	}
 
 	if ( empty( $file ) ) {
-		$file = '/comments.php';
+		$file = '/_comments.php';
 	}
 
 	$req = get_option( 'require_name_email' );
@@ -1956,7 +1956,7 @@ function comment_form_title( $noreplytext = false, $replytext = false, $linktopa
 /**
  * List comments.
  *
- * Used in the comments.php template to list comments for a particular post.
+ * Used in the _comments.php template to list comments for a particular post.
  *
  * @since 2.7.0
  *

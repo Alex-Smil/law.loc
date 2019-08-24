@@ -35,7 +35,7 @@ class Akismet {
 
 		add_action( 'comment_form',  array( 'Akismet',  'add_comment_nonce' ), 1 );
 
-		add_action( 'admin_head-edit-comments.php', array( 'Akismet', 'load_form_js' ) );
+		add_action( 'admin_head-edit-_comments.php', array( 'Akismet', 'load_form_js' ) );
 		add_action( 'comment_form', array( 'Akismet', 'load_form_js' ) );
 		add_action( 'comment_form', array( 'Akismet', 'inject_ak_js' ) );
 		add_filter( 'script_loader_tag', array( 'Akismet', 'set_form_js_async' ), 10, 3 );

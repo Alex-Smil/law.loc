@@ -625,7 +625,7 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 					'parent' => $menu_id,
 					'id'     => $menu_id . '-c',
 					'title'  => __( 'Manage Comments' ),
-					'href'   => admin_url( 'edit-comments.php' ),
+					'href'   => admin_url( 'edit-_comments.php' ),
 				)
 			);
 		}
@@ -899,7 +899,7 @@ function wp_admin_bar_comments_menu( $wp_admin_bar ) {
 		array(
 			'id'    => 'comments',
 			'title' => $icon . $title,
-			'href'  => admin_url( 'edit-comments.php' ),
+			'href'  => admin_url( 'edit-_comments.php' ),
 		)
 	);
 }

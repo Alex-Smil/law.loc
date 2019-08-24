@@ -415,7 +415,7 @@ if ( $action ) {
 				$plugins  = isset( $_POST['checked'] ) ? (array) wp_unslash( $_POST['checked'] ) : array();
 				$sendback = wp_get_referer();
 
-				/** This action is documented in wp-admin/edit-comments.php */
+				/** This action is documented in wp-admin/edit-_comments.php */
 				$sendback = apply_filters( 'handle_bulk_actions-' . get_current_screen()->id, $sendback, $action, $plugins );
 				wp_safe_redirect( $sendback );
 				exit;

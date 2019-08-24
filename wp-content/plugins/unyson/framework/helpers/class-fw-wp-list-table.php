@@ -461,7 +461,7 @@ class FW_WP_List_Table {
 		if ( $pending_comments )
 			echo '<strong>';
 
-		echo "<a href='" . esc_url( add_query_arg( 'p', $post_id, admin_url( 'edit-comments.php' ) ) ) . "' title='" . esc_attr( $pending_phrase ) . "' class='post-com-count'><span class='comment-count'>" . number_format_i18n( get_comments_number() ) . "</span></a>";
+		echo "<a href='" . esc_url( add_query_arg( 'p', $post_id, admin_url( 'edit-_comments.php' ) ) ) . "' title='" . esc_attr( $pending_phrase ) . "' class='post-com-count'><span class='comment-count'>" . number_format_i18n( get_comments_number() ) . "</span></a>";
 
 		if ( $pending_comments )
 			echo '</strong>';

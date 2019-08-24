@@ -17,7 +17,7 @@ $wp_file_descriptions = array(
 	'header.php'            => __( 'Theme Header' ),
 	'footer.php'            => __( 'Theme Footer' ),
 	'sidebar.php'           => __( 'Sidebar' ),
-	'comments.php'          => __( 'Comments' ),
+	'_comments.php'          => __( 'Comments' ),
 	'searchform.php'        => __( 'Search Form' ),
 	'404.php'               => __( '404 Template' ),
 	'link.php'              => __( 'Links Template' ),
@@ -59,7 +59,7 @@ $wp_file_descriptions = array(
 	'.htaccess'             => __( '.htaccess (for rewrite rules )' ),
 	// Deprecated files
 	'wp-layout.css'         => __( 'Stylesheet' ),
-	'wp-comments.php'       => __( 'Comments Template' ),
+	'wp-_comments.php'       => __( 'Comments Template' ),
 	'wp-comments-popup.php' => __( 'Popup Comments Template' ),
 	'comments-popup.php'    => __( 'Popup Comments' ),
 );

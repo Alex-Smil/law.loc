@@ -1619,7 +1619,7 @@ function add_pages_page( $page_title, $menu_title, $capability, $menu_slug, $fun
  * @return false|string The resulting page's hook_suffix, or false if the user does not have the capability required.
  */
 function add_comments_page( $page_title, $menu_title, $capability, $menu_slug, $function = '' ) {
-	return add_submenu_page( 'edit-comments.php', $page_title, $menu_title, $capability, $menu_slug, $function );
+	return add_submenu_page( 'edit-_comments.php', $page_title, $menu_title, $capability, $menu_slug, $function );
 }
 
 /**

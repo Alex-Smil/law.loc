@@ -197,7 +197,7 @@ if ( $doaction ) {
 			$location = add_query_arg( 'deleted', count( $post_ids ), $location );
 			break;
 		default:
-			/** This action is documented in wp-admin/edit-comments.php */
+			/** This action is documented in wp-admin/edit-_comments.php */
 			$location = apply_filters( 'handle_bulk_actions-' . get_current_screen()->id, $location, $doaction, $post_ids );
 	}
 

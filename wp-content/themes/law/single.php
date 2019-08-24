@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div id="fh5co-blog" class="fh5co-bg-section" style="background-color:#fcfcfc;">
     <div class="container">
         <div class="row">
@@ -16,6 +15,12 @@
                     <img class="pull-left low-post-image" src="<?php echo $img_url; ?>" alt="<?php the_title(); ?>">
 
                     <?php the_content(); ?>
+                
+                    <?php
+                        if ( comments_open() || get_comments_number()) {
+                            comments_template('/comments.php');
+                        }
+                    ?>
                 <?php endwhile; ?>
                     <!-- post navigation -->
                 <?php else: ?>

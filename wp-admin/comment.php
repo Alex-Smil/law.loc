@@ -9,8 +9,8 @@
 /** Load WordPress Bootstrap */
 require_once( dirname( __FILE__ ) . '/admin.php' );
 
-$parent_file  = 'edit-comments.php';
-$submenu_file = 'edit-comments.php';
+$parent_file  = 'edit-_comments.php';
+$submenu_file = 'edit-_comments.php';
 
 /**
  * @global string $action
@@ -89,18 +89,18 @@ switch ( $action ) {
 		$comment_id = absint( $_GET['c'] );
 
 		if ( ! $comment = get_comment( $comment_id ) ) {
-			wp_redirect( admin_url( 'edit-comments.php?error=1' ) );
+			wp_redirect( admin_url( 'edit-_comments.php?error=1' ) );
 			die();
 		}
 
 		if ( ! current_user_can( 'edit_comment', $comment->comment_ID ) ) {
-			wp_redirect( admin_url( 'edit-comments.php?error=2' ) );
+			wp_redirect( admin_url( 'edit-_comments.php?error=2' ) );
 			die();
 		}
 
 		// No need to re-approve/re-trash/re-spam a comment.
 		if ( $action == str_replace( '1', 'approve', $comment->comment_approved ) ) {
-			wp_redirect( admin_url( 'edit-comments.php?same=' . $comment_id ) );
+			wp_redirect( admin_url( 'edit-_comments.php?same=' . $comment_id ) );
 			die();
 		}
 
@@ -230,7 +230,7 @@ switch ( $action ) {
 
 	<p>
 		<?php submit_button( $button, 'primary', 'submit', false ); ?>
-	<a href="<?php echo admin_url( 'edit-comments.php' ); ?>" class="button-cancel"><?php esc_html_e( 'Cancel' ); ?></a>
+	<a href="<?php echo admin_url( 'edit-_comments.php' ); ?>" class="button-cancel"><?php esc_html_e( 'Cancel' ); ?></a>
 	</p>
 
 		<?php wp_nonce_field( $nonce_action ); ?>
@@ -261,7 +261,7 @@ switch ( $action ) {
 		$noredir = isset( $_REQUEST['noredir'] );
 
 		if ( ! $comment = get_comment( $comment_id ) ) {
-			comment_footer_die( __( 'Invalid comment ID.' ) . sprintf( ' <a href="%s">' . __( 'Go back' ) . '</a>.', 'edit-comments.php' ) );
+			comment_footer_die( __( 'Invalid comment ID.' ) . sprintf( ' <a href="%s">' . __( 'Go back' ) . '</a>.', 'edit-_comments.php' ) );
 		}
 		if ( ! current_user_can( 'edit_comment', $comment->comment_ID ) ) {
 			comment_footer_die( __( 'Sorry, you are not allowed to edit comments on this post.' ) );
@@ -272,9 +272,9 @@ switch ( $action ) {
 		} elseif ( '' != wp_get_original_referer() && ! $noredir ) {
 			$redir = wp_get_original_referer();
 		} elseif ( in_array( $action, array( 'approvecomment', 'unapprovecomment' ) ) ) {
-			$redir = admin_url( 'edit-comments.php?p=' . absint( $comment->comment_post_ID ) );
+			$redir = admin_url( 'edit-_comments.php?p=' . absint( $comment->comment_post_ID ) );
 		} else {
-			$redir = admin_url( 'edit-comments.php' );
+			$redir = admin_url( 'edit-_comments.php' );
 		}
 
 		$redir = remove_query_arg( array( 'spammed', 'unspammed', 'trashed', 'untrashed', 'deleted', 'ids', 'approved', 'unapproved' ), $redir );
@@ -333,7 +333,7 @@ switch ( $action ) {
 
 		edit_comment();
 
-		$location = ( empty( $_POST['referredby'] ) ? "edit-comments.php?p=$comment_post_id" : $_POST['referredby'] ) . '#comment-' . $comment_id;
+		$location = ( empty( $_POST['referredby'] ) ? "edit-_comments.php?p=$comment_post_id" : $_POST['referredby'] ) . '#comment-' . $comment_id;
 
 		/**
 		 * Filters the URI the user is redirected to after editing a comment in the admin.

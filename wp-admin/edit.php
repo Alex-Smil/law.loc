@@ -50,7 +50,7 @@ $pagenum       = $wp_list_table->get_pagenum();
 // Back-compat for viewing comments of an entry
 foreach ( array( 'p', 'attachment_id', 'page_id' ) as $_redirect ) {
 	if ( ! empty( $_REQUEST[ $_redirect ] ) ) {
-		wp_redirect( admin_url( 'edit-comments.php?p=' . absint( $_REQUEST[ $_redirect ] ) ) );
+		wp_redirect( admin_url( 'edit-_comments.php?p=' . absint( $_REQUEST[ $_redirect ] ) ) );
 		exit;
 	}
 }
@@ -181,7 +181,7 @@ if ( $doaction ) {
 			}
 			break;
 		default:
-			/** This action is documented in wp-admin/edit-comments.php */
+			/** This action is documented in wp-admin/edit-_comments.php */
 			$sendback = apply_filters( 'handle_bulk_actions-' . get_current_screen()->id, $sendback, $doaction, $post_ids );
 			break;
 	}

@@ -681,7 +681,7 @@ class WP_List_Table {
 							'p'              => $post_id,
 							'comment_status' => 'approved',
 						),
-						admin_url( 'edit-comments.php' )
+						admin_url( 'edit-_comments.php' )
 					)
 				),
 				$approved_comments_number,
@@ -704,7 +704,7 @@ class WP_List_Table {
 							'p'              => $post_id,
 							'comment_status' => 'moderated',
 						),
-						admin_url( 'edit-comments.php' )
+						admin_url( 'edit-_comments.php' )
 					)
 				),
 				$pending_comments_number,

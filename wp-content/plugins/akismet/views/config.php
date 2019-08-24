@@ -144,7 +144,7 @@
 												$delete_interval,
 												'akismet'
 											),
-											admin_url( 'edit-comments.php?comment_status=spam' ),
+											admin_url( 'edit-_comments.php?comment_status=spam' ),
 											$delete_interval
 										);
 									

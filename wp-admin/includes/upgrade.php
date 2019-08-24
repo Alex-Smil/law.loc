@@ -2944,7 +2944,7 @@ function make_site_theme_from_oldschool( $theme_name, $template ) {
 	$files = array(
 		'index.php'             => 'index.php',
 		'wp-layout.css'         => 'style.css',
-		'wp-comments.php'       => 'comments.php',
+		'wp-_comments.php'       => '_comments.php',
 		'wp-comments-popup.php' => 'comments-popup.php',
 	);
 
@@ -2988,7 +2988,7 @@ function make_site_theme_from_oldschool( $theme_name, $template ) {
 				$line = str_replace( "<?php echo __get_option('siteurl'); ?>/wp-layout.css", "<?php bloginfo('stylesheet_url'); ?>", $line );
 
 				// Update comments template inclusion.
-				$line = str_replace( "<?php include(ABSPATH . 'wp-comments.php'); ?>", '<?php comments_template(); ?>', $line );
+				$line = str_replace( "<?php include(ABSPATH . 'wp-_comments.php'); ?>", '<?php comments_template(); ?>', $line );
 
 				fwrite( $f, "{$line}\n" );
 			}
@@ -3027,7 +3027,7 @@ function make_site_theme_from_default( $theme_name, $template ) {
 	$default_dir = WP_CONTENT_DIR . '/themes/' . WP_DEFAULT_THEME;
 
 	// Copy files from the default theme to the site theme.
-	//$files = array('index.php', 'comments.php', 'comments-popup.php', 'footer.php', 'header.php', 'sidebar.php', 'style.css');
+	//$files = array('index.php', '_comments.php', 'comments-popup.php', 'footer.php', 'header.php', 'sidebar.php', 'style.css');
 
 	$theme_dir = @ opendir( $default_dir );
 	if ( $theme_dir ) {

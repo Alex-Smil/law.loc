@@ -200,7 +200,7 @@ switch ( $wp_list_table->current_action() ) {
 		}
 		check_admin_referer( 'bulk-tags' );
 		$tags = (array) $_REQUEST['delete_tags'];
-		/** This action is documented in wp-admin/edit-comments.php */
+		/** This action is documented in wp-admin/edit-_comments.php */
 		$location = apply_filters( 'handle_bulk_actions-' . get_current_screen()->id, $location, $wp_list_table->current_action(), $tags );
 		break;
 }

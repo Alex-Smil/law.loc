@@ -11197,8 +11197,8 @@ msgid "Comment Blacklist"
 msgstr "Чёрный список"
 
 #: wp-admin/options-discussion.php:189
-msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "Если комментарий содержит какие-либо из этих слов в своём тексте, имени автора, URL, адресе e-mail или IP, то поместить его в <a href=\"edit-comments.php?comment_status=moderated\">очередь на модерацию</a>. Каждое слово или IP с новой строки. Используется поиск по подстроке, то есть по слову &#8220;press&#8221; будет найдено &#8220;WordPress&#8221;."
+msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-_comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
+msgstr "Если комментарий содержит какие-либо из этих слов в своём тексте, имени автора, URL, адресе e-mail или IP, то поместить его в <a href=\"edit-_comments.php?comment_status=moderated\">очередь на модерацию</a>. Каждое слово или IP с новой строки. Используется поиск по подстроке, то есть по слову &#8220;press&#8221; будет найдено &#8220;WordPress&#8221;."
 
 #: wp-admin/options-discussion.php:187
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"

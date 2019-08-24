@@ -1758,7 +1758,7 @@ if ( ! function_exists( 'wp_notify_moderator' ) ) :
 			),
 			number_format_i18n( $comments_waiting )
 		) . "\r\n";
-		$notify_message .= admin_url( 'edit-comments.php?comment_status=moderated#wpbody-content' ) . "\r\n";
+		$notify_message .= admin_url( 'edit-_comments.php?comment_status=moderated#wpbody-content' ) . "\r\n";
 
 		/* translators: Comment moderation notification email subject. 1: Site name, 2: Post title */
 		$subject         = sprintf( __( '[%1$s] Please moderate: "%2$s"' ), $blogname, $post->post_title );
