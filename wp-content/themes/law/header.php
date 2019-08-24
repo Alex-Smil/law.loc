@@ -42,6 +42,8 @@
                     </div>
                 </div>
 
+                <?php get_search_form(); ?>
+
             </div>
         </div>
     </nav>
