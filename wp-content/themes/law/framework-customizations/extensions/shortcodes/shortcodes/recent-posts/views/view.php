@@ -45,4 +45,6 @@ $query = new WP_Query( array(
     <?php else: ?>
         <!-- no posts found -->
     <?php endif; ?>
+
+    <?php wp_reset_postdata(); ?>
 </div>

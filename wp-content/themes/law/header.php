@@ -26,7 +26,7 @@
 <div class="fh5co-loader"></div>
 
 <div id="page">
-    <nav class="fh5co-nav" role="navigation">
+    <nav class="fh5co-nav" role="navigation" style="background-color:<?php echo law_theme_option('header_color'); ?>">
         <div class="top-menu">
             <div class="container">
                 <div class="row">

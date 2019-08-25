@@ -261,3 +261,12 @@ function law_comment_nav() {
 	<?php
 	endif;
 }
+
+//My functions
+function law_theme_option($name) {
+	if (defined('FW')) {
+		return fw_get_db_settings_option($name);
+    } else {
+	    return $name;
+    }
+}
